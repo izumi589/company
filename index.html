@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/color.css">
-  <link rel="stylesheet" href="/wow/WOW-master/css/animate.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/color.min.css">
+  <link rel="stylesheet" href="./wow/WOW-master/css/animate.css">
   <!--スライダーCDNのcss読み込み-->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <!--スライダースタイルシート読み込み-->
-  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="./css/slider.min.css">
 <!--CDNからスワイパーを使用する -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -107,7 +107,7 @@
   <div class="container">
     <h2 class="title">Card</h2>
       <div class="card__items">
-        <div class="card__item wow bounceInUp"data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
+        <div class="card__item wow bounce" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
           <a href="">
             <img src="./img/card01.png" alt="">
             <h3>タイトルタイトル</h3>
@@ -122,27 +122,27 @@
           </a>
         </div>
         <div class="card__item wow pulse" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
+          <a href="#">
+            <img src="./img/card01.png" alt="">
+            <h3>タイトルタイトル</h3>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </a>
+        </div>
+        <div class="card__item wow pulse" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
           <a href="">
             <img src="./img/card01.png" alt="">
             <h3>タイトルタイトル</h3>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
           </a>
         </div>
-        <div class="card__item wow swing"data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
+        <div class="card__item wow pulse" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
           <a href="">
             <img src="./img/card01.png" alt="">
             <h3>タイトルタイトル</h3>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
           </a>
         </div>
-        <div class="card__item wow wobble"data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
-          <a href="">
-            <img src="./img/card01.png" alt="">
-            <h3>タイトルタイトル</h3>
-            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </a>
-        </div>
-        <div class="card__item wow fadeInDownBig"data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
+        <div class="card__item wow pulse" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset="10" data-wow-iteration="1">
           <a href="">
             <img src="./img/card01.png" alt="">
             <h3>タイトルタイトル</h3>
@@ -260,47 +260,48 @@
   <div class="container">
     <h2 class="title">Q&A</h2>
     <dl>
-    <div class="accordion">
+      <div class="accordion">
         <dt class="question">
           <span class="q">Q</span>
           クリックするとどうなりますか？<span class="plus">+</span>
         </dt>
-      <dd class="answer">
-        <span class="a">A</span>
-        アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。
-      </dd>
-  </div>
-    <div class="accordion">
+        <dd class="answer">
+          <span class="a">A</span>
+          アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。
+        </dd>
+      </div>
+      <div class="accordion">
         <dt class="question">
           <span class="q">Q</span>
           クリックするとどうなりますか？<span class="plus">+</span>
         </dt>
-      <dd class="answer">
+        <dd class="answer">
         <span class="a">A</span>
         アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。
-      </dd>
-  </div>
-    <div class="accordion">
+        </dd>
+      </div>
+      <div class="accordion">
         <dt class="question">
           <span class="q">Q</span>
           クリックするとどうなりますか？<span class="plus">+</span>
         </dt>
-      <dd class="answer">
+        <dd class="answer">
         <span class="a">A</span>
         アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。
-      </dd>
-  </div>
-    <div class="accordion">
-      <dt class="question">
+        </dd>
+      </div>
+      <div class="accordion">
+        <dt class="question">
         <span class="q">Q</span>
         クリックするとどうなりますか？<span class="plus">+</span>
-      </dt>
-      <dd class="answer">
+        </dt>
+        <dd class="answer">
         <span class="a">A</span>
         アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。アコーディオンでここが開きます。
-      </dd>
-    </div>
-  </dl>
+        </dd>
+      </div>
+    </dl>
+  </div>
 </section>
 <!-- Q&A終わり-->
 
@@ -374,7 +375,7 @@
 <div class="modal js-modal">
   <div class="js-modal-close" id="gray-display"></div>
   <div class="modal__wrapper">
-    <div class="close js-modal-close"><img src="/img/icon-modal-close.png" alt=""></div>
+    <div class="close js-modal-close"><img src="./img/icon-modal-close.png" alt=""></div>
     <h4 class="title">プライバシーポリシー</h4>
     <dl class = "modal__content">
       <dt>
@@ -456,7 +457,7 @@
 
 
 <!-- Wow 読み込み-->
-<script src="/wow/WOW-master/dist/wow.min.js"></script>
+<script src="./wow/WOW-master/dist/wow.min.js"></script>
 <script>
   // 初期化
   new WOW().init();
