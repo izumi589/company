@@ -257,7 +257,7 @@ nav{
 	position: relative;
 	height: 700px;
 	width: 100%;
-	background: transparent url(/img/sample1.JPG) no-repeat top center / cover;
+	background: transparent url(../img/sample1.JPG) no-repeat top center / cover;
 
 	@include mq(sm) {
 		height: 700px;
@@ -272,7 +272,7 @@ nav{
 	position: relative;
 	height: 700px;
 	width: 100%;
-	background: transparent url(/img/scott-graham-OQMZwNd3ThU-unsplash.jpg)   center / cover;
+	background: transparent url(../img/scott-graham-OQMZwNd3ThU-unsplash.jpg)   center / cover;
 
 	@include mq(sm) {
 		height: 700px;
@@ -286,10 +286,10 @@ nav{
 	position: relative;
 	height: 700px;
 	width: 100%;
-	background: transparent url(/img/sample2.JPG)   center / cover;
+	background: transparent url(../img/sample2.JPG)   center / cover;
 
   .swiper-button-prev {
-    background: transparent url(/img/slide-arrow-right.png) no-repeat center center / contain;
+    background: transparent url(../img/slide-arrow-right.png) no-repeat center center / contain;
     // left: calc(50% - #{$layout-width-inner / 2} + 16px);
   
     // @include mq('tab') {
@@ -302,7 +302,7 @@ nav{
   }
   
   .swiper-button-next {
-    background: transparent url(/img/slide-arrow-right.png) no-repeat center center / contain;
+    background: transparent url(../img/slide-arrow-right.png) no-repeat center center / contain;
     // right: calc(50% - #{$layout-width-inner / 2} + 16px);
   
     // @include mq('tab') {
@@ -361,7 +361,7 @@ nav{
 
 // トップ
 .top {
-  background-image: url(/img/scott-graham-OQMZwNd3ThU-unsplash.jpg);
+  background-image: url(../img/scott-graham-OQMZwNd3ThU-unsplash.jpg);
   background-color:rgba(255,255,255,0.6);
   background-blend-mode:lighten;
   background-size: cover;

@@ -186,7 +186,7 @@ nav {
   position: relative;
   height: 700px;
   width: 100%;
-  background: transparent url(/img/sample1.JPG) no-repeat top center/cover;
+  background: transparent url(../img/sample1.JPG) no-repeat top center/cover;
 }
 
 @media screen and (max-width: 576px) {
@@ -205,7 +205,7 @@ nav {
   position: relative;
   height: 700px;
   width: 100%;
-  background: transparent url(/img/scott-graham-OQMZwNd3ThU-unsplash.jpg) center/cover;
+  background: transparent url(../img/scott-graham-OQMZwNd3ThU-unsplash.jpg) center/cover;
 }
 
 @media screen and (max-width: 576px) {
@@ -224,15 +224,15 @@ nav {
   position: relative;
   height: 700px;
   width: 100%;
-  background: transparent url(/img/sample2.JPG) center/cover;
+  background: transparent url(../img/sample2.JPG) center/cover;
 }
 
 .slide3 .swiper-button-prev {
-  background: transparent url(/img/slide-arrow-right.png) no-repeat center center/contain;
+  background: transparent url(../img/slide-arrow-right.png) no-repeat center center/contain;
 }
 
 .slide3 .swiper-button-next {
-  background: transparent url(/img/slide-arrow-right.png) no-repeat center center/contain;
+  background: transparent url(../img/slide-arrow-right.png) no-repeat center center/contain;
 }
 
 .slide3 .swiper-pagination-bullet {
@@ -263,7 +263,7 @@ nav {
 }
 
 .top {
-  background-image: url(/img/scott-graham-OQMZwNd3ThU-unsplash.jpg);
+  background-image: url(../img/scott-graham-OQMZwNd3ThU-unsplash.jpg);
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;
   background-size: cover;
