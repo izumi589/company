@@ -859,6 +859,10 @@ dl {
   height: 240px;
 }
 
+.contact__radio {
+  margin-top: 20px;
+}
+
 .contact__radio span {
   color: #333333;
 }

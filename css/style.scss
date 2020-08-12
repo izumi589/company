@@ -865,8 +865,11 @@ dl{
 
 
 // ラジオボタン
-.contact__radio span{
+.contact__radio {
+  margin-top: 20px;
+  span{
  color: #333333
+}
 }
 
 
