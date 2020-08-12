@@ -8,7 +8,7 @@ $japanese: "Noto Sans JP";
 
 $breakpoints: (
  'sm': 'screen and (max-width: 576px)',//スマホ
- 'md': 'screen and (max-width: 768px)',//タブレット
+ 'md': 'screen and (min-width: 768px)',//タブレット
  'lg': 'screen and (max-width: 992px)',//PC
  'xl': 'screen and (max-width: 1200px)'//PC大
 ) !default;
@@ -109,13 +109,13 @@ header {
   justify-content: space-between;
   margin: 30px 0;
   @include mq(sm){
-    display: block;
+    // display: block;
   }
 }
 
 nav{
   width: 100%;
-  position: relative;
+  // position: relative;
   // background: #F6F6F6;
   @include mq(sm) {
     height: 40px;
@@ -124,12 +124,7 @@ nav{
  
  .drawer{
   display: flex;
-  // flex-direction: row;
   align-items: center;
-  // justify-content: space-between;
-  // position: relative;
-  // height: 70px;
-  // padding: 0 1em;
   @include mq(sm) {
     display: flex;
     justify-content: space-between;
@@ -516,8 +511,7 @@ nav{
 
 .info__published {
   margin-right: 35px;
-  margin-left: 10px;
-  width: 85px;
+  margin-left: 10px;;
   @include mq(sm){
     padding-top: 20px;
    }
@@ -759,6 +753,7 @@ dl{
   padding: 15px;
   color: white;
   margin: 15px 0;
+  position: relative;
 }
 
 .q {
@@ -768,10 +763,9 @@ dl{
   line-height: 55px;
 }
 .plus {
-  // position: fixed;
-  // right:10px
   font-size: 40px;
-  margin-left: 600px;
+  position: absolute;
+  right: 20px;
 }
 .answer {
   padding: 15px;

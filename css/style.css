@@ -51,15 +51,8 @@ header {
   margin: 30px 0;
 }
 
-@media screen and (max-width: 576px) {
-  .header-wrapper {
-    display: block;
-  }
-}
-
 nav {
   width: 100%;
-  position: relative;
 }
 
 @media screen and (max-width: 576px) {
@@ -498,7 +491,6 @@ p {
 .info__published {
   margin-right: 35px;
   margin-left: 10px;
-  width: 85px;
 }
 
 @media screen and (max-width: 576px) {
@@ -767,6 +759,7 @@ dl {
   padding: 15px;
   color: white;
   margin: 15px 0;
+  position: relative;
 }
 
 .q {
@@ -778,7 +771,8 @@ dl {
 
 .plus {
   font-size: 40px;
-  margin-left: 600px;
+  position: absolute;
+  right: 20px;
 }
 
 .answer {
